@@ -1,0 +1,394 @@
+/*Extra Large Layout: 1200px.*/
+@media (min-width: 1200px) {
+    #header {
+        max-width: 95%;
+    }
+
+    .screen {
+        max-width: 90%;
+    }
+}
+
+
+/*Large Layout: 992px.*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #header {
+        max-width: 95%;
+    }
+
+    .screen {
+        max-width: 92%;
+    }
+
+    #testimonial {
+        width: 60%;
+    }
+
+    #footer .f_content .col_5 {
+        width: 19%;
+        margin-right: 8%;
+    }
+
+    #footer .f_content .col_5.no_border {
+        display: none;
+    }
+
+    #featured {
+        width: 410px;
+        margin: 50px auto 40px auto;
+    }
+
+    #featured .col_7 {
+        margin-bottom: 50px;
+    }
+
+    #featured .col_7.break_d_none {
+        display: none;
+    }
+
+    #featured .col_7.break_clear {
+        clear: both;
+    }
+}
+
+
+/*Tablet Layout: 768px.*/
+@media (min-width: 768px) and (max-width: 992px) {
+    #header {
+        max-width: 95%;
+        height: 130px;
+    }
+
+    #header header_col1 {
+        float: none;
+    }
+
+    #header .header_col1 a.logo {
+        float: right;
+    }
+
+    #header .header_col2 {
+        float: none;
+        clear: both;
+    }
+
+    #header .header_col2 a.right_icon {
+        float: right;
+    }
+
+    .screen {
+        max-width: 93%;
+    }
+
+    #featured {
+        width: 410px;
+        margin: 50px auto 40px auto;
+    }
+
+    #featured .col_7 {
+        margin-bottom: 50px;
+    }
+
+    #featured .col_7.break_d_none {
+        display: none;
+    }
+
+    #featured .col_7.break_clear {
+        clear: both;
+    }
+
+    #solution .col_3 {
+        width: 45%;
+        float: none;
+        margin-right: 0;
+        margin: 0 auto !important;
+        margin-bottom: 100px !important;
+    }
+
+    #testimonial {
+        width: 70%;
+    }
+
+    #shopping .col_3 {
+        width: 350px;
+        margin: 0 auto 90px auto !important;
+        float: none;
+    }
+
+    #footer .f_content .col_5 {
+        width: 45%;
+        margin-right: 10%;
+        margin-bottom: 50px;
+    }
+
+    #footer .f_content .col_5.no_border {
+        display: none;
+    }
+
+    #footer .f_content .col_5.tab_no_marg {
+        margin-right: 0;
+    }
+}
+
+
+/*Wide Mobile Layout: ≥576px.*/
+@media (min-width: 576px) and (max-width: 767px) {
+    #header {
+        max-width: 95%;
+        height: 130px;
+    }
+
+    #header header_col1 {
+        float: none;
+    }
+
+    #header .header_col1 a.logo {
+        float: right;
+    }
+
+    #header .header_col2 {
+        float: none;
+        clear: both;
+    }
+
+    #header .header_col2 a.right_icon {
+        float: right;
+    }
+
+    #header header_col1 .screen {
+        max-width: 95%;
+    }
+
+    .screen {
+        max-width: 95%;
+    }
+
+    #featured {
+        width: 410px;
+        margin: 50px auto 40px auto;
+    }
+
+    #featured .col_7 {
+        margin-bottom: 50px;
+    }
+
+    #featured .col_7.break_d_none {
+        display: none;
+    }
+
+    #featured .col_7.break_clear {
+        clear: both;
+    }
+
+    #advantage .col_3 {
+        width: 60%;
+        margin-right: 0;
+        margin-bottom: 100px;
+        padding: 0 20%;
+        float: none;
+    }
+
+    #solution .col_3 {
+        width: 60%;
+        float: none;
+        margin-right: 0;
+        margin: 0 auto !important;
+        margin-bottom: 100px !important;
+    }
+
+    #testimonial {
+        width: 85%;
+    }
+
+    #shopping .col_3 {
+        width: 325px;
+        margin: 0 auto 90px auto !important;
+        float: none;
+    }
+
+    #footer .f_content .col_5 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    #footer .f_content .col_5.no_border {
+        display: none;
+    }
+}
+
+
+/*Device-pixel-ratio of 2+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    #header {
+        max-width: 95%;
+        height: 130px;
+    }
+
+    #header header_col1 {
+        float: none;
+    }
+
+    #header .header_col1 a.logo {
+        float: right;
+    }
+
+    #header .header_col2 {
+        float: none;
+        clear: both;
+    }
+
+    #header .header_col2 a.right_icon {
+        float: right;
+    }
+
+    #header header_col1 .screen {
+        max-width: 95%;
+    }
+
+    .screen {
+        max-width: 95%;
+    }
+
+    #featured {
+        width: 410px;
+        margin: 50px auto 40px auto;
+    }
+
+    #featured .col_7 {
+        margin-bottom: 50px;
+    }
+
+    #featured .col_7.break_d_none {
+        display: none;
+    }
+
+    #featured .col_7.break_clear {
+        clear: both;
+    }
+
+    #advantage .col_3 {
+        width: 60%;
+        margin-right: 0;
+        margin-bottom: 100px;
+        padding: 0 20%;
+        float: none;
+    }
+
+    #solution .col_3 {
+        width: 60%;
+        float: none;
+        margin-right: 0;
+        margin: 0 auto !important;
+        margin-bottom: 100px !important;
+    }
+
+    #testimonial {
+        width: 85%;
+    }
+
+    #shopping .col_3 {
+        width: 325px;
+        margin: 0 auto 90px auto !important;
+        float: none;
+    }
+
+    #footer .f_content .col_5 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    #footer .f_content .col_5.no_border {
+        display: none;
+    }
+}
+
+
+/*Small Mobile Layout: <576px.*/
+@media only screen and (max-width: 576px) {
+    #header {
+        max-width: 95%;
+        height: 130px;
+    }
+
+    #header header_col1 {
+        float: none;
+    }
+
+    #header .header_col1 a.logo {
+        float: right;
+    }
+
+    #header .header_col2 {
+        float: none;
+        clear: both;
+    }
+
+    #header .header_col2 a.right_icon {
+        float: right;
+    }
+
+    #header header_col1 .screen {
+        max-width: 95%;
+    }
+
+    .screen {
+        max-width: 97%;
+    }
+
+    #featured {
+        width: 140px;
+        margin: 50px auto 40px auto;
+    }
+
+    #featured .col_7 {
+        float: none;
+        margin-bottom: 50px;
+    }
+
+    #featured .col_7.horizontal_shape {
+        display: none;
+    }
+
+    #advantage .col_3 {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 100px;
+        padding: 0 10%;
+        float: none;
+    }
+
+    #solution .col_3 {
+        width: 95%;
+        float: none;
+        margin-right: 0;
+        margin: 0 auto !important;
+        margin-bottom: 100px !important;
+    }
+
+    #testimonial {
+        width: 100%;
+    }
+
+    #testimonial .about_testimonial {
+        margin-left: 25px;
+    }
+
+    #shopping .col_3 {
+        width: 315px;
+        margin: 0 auto 90px auto !important;
+        float: none;
+    }
+
+    #footer .f_content .col_5 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    #footer .f_content .col_5.no_border {
+        display: none;
+    }
+}

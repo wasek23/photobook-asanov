@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "PFAgoraSansPro";
+    src: url("../font/PFAgoraSansPro.ttf") format("truetype"),
+    url("../font/PFAgoraSansPro.eot") format("eot"),
+    url("../font/PFAgoraSansPro.woff") format("woff"),
+    url("../font/PFAgoraSansPro.svg#PFAgoraSansPro") format("svg");
+}
+
+@font-face {
+    font-family: "PFAgoraSansPro Light";
+    src: url("../font/PFAgoraSansPro-Light.ttf") format("truetype"),
+    url("../font/PFAgoraSansPro-Light.eot") format("eot"),
+    url("../font/PFAgoraSansPro-Light.woff") format("woff"),
+    url("../font/PFAgoraSansPro-Light.svg#PFAgoraSansPro-Light") format("svg");
+}
+
+@font-face {
+    font-family: "PFAgoraSansPro Thin";
+    src: url("../font/PFAgoraSansPro-Thin.ttf") format("truetype"),
+    url("../font/PFAgoraSansPro-Thin.eot") format("eot"),
+    url("../font/PFAgoraSansPro-Thin.woff") format("woff"),
+    url("../font/PFAgoraSansPro-Thin.svg#PFAgoraSansPro-Thin") format("svg");
+}
+
+@font-face {
+    font-family: "PFAgoraSansPro XThin";
+    src: url("../font/PFAgoraSansPro-XThin.ttf") format("truetype"),
+    url("../font/PFAgoraSansPro-XThin.eot") format("eot"),
+    url("../font/PFAgoraSansPro-XThin.woff") format("woff"),
+    url("../font/PFAgoraSansPro-XThin.svg#PFAgoraSansPro-XThin") format("svg");
+}
